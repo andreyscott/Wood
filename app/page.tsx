@@ -4,7 +4,7 @@ import { ArrowRight, Star, PenTool, ShieldCheck, MessageCircle, Quote, Sparkles,
 import { Category } from '../types';
 import { WHATSAPP_LINK } from '../constants';
 
-import { HeroSlider } from '../components/HeroSlider';
+import { HeroVideo } from '../components/HeroVideo';
 
 const ArtisanBadgeIcon = ({ className = "" }: { className?: string }) => (
     <svg viewBox="0 0 100 100" fill="currentColor" className={className}>
@@ -68,57 +68,8 @@ export default function Home() {
 
     return (
         <div className="flex flex-col">
-            {/* Hero Section with Enhanced Depth */}
-            <section className="relative h-[90vh] flex items-center overflow-hidden">
-                <HeroSlider />
-
-                <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-white">
-                    <div className="animate-fade-in-up max-w-3xl">
-                        <div className="inline-flex items-center space-x-2 bg-orange-800/20 backdrop-blur-md px-4 py-1.5 rounded-full text-orange-400 text-xs font-bold uppercase tracking-widest mb-6 border border-orange-800/30">
-                            <Sparkles size={14} />
-                            <span>Premium Furniture Since 2012</span>
-                        </div>
-                        <h1 className="text-5xl md:text-8xl font-black mb-6 leading-[1.1] font-serif">
-                            Where <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-amber-200">Luxury</span> Meets <br />
-                            <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-amber-200">Craftsmanship</span>
-                        </h1>
-                        <p className="text-base md:text-xl mb-10 text-stone-100 leading-relaxed font-light">
-                            Where heritage meets modernity. We craft timeless furniture that tells a story, tailored to your vision and built for generations.
-                        </p>
-                        <div className="flex flex-col sm:flex-row gap-5">
-                            <a
-                                href={WHATSAPP_LINK}
-                                className="group relative bg-orange-900 hover:bg-orange-800 text-white px-10 py-5 rounded-2xl font-black text-center transition-all duration-300 flex items-center justify-center space-x-2 overflow-hidden shadow-2xl shadow-orange-950/30"
-                            >
-                                <div className="absolute inset-0 bg-white/10 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700 ease-in-out"></div>
-                                <MessageCircle size={24} />
-                                <span>Get Free Consultation</span>
-                            </a>
-                            <Link
-                                href="/categories"
-                                className="bg-white/10 hover:bg-white/20 backdrop-blur-md text-white border-2 border-white/30 px-10 py-5 rounded-2xl font-black text-center transition-all duration-300 flex items-center justify-center space-x-2"
-                            >
-                                <span>Explore Showroom</span>
-                                <ArrowRight size={20} />
-                            </Link>
-                        </div>
-                    </div>
-                </div>
-
-                {/* Floating Decorative Elements */}
-                <div className="absolute bottom-20 right-[10%] hidden lg:block animate-float">
-                    <div className="glass p-8 rounded-[2.5rem] w-72 shadow-2xl relative">
-                        <div className="flex -space-x-4 mb-5">
-                            {[1, 2, 3, 4].map(i => <div key={i} className="w-12 h-12 rounded-full border-4 border-white dark:border-stone-800 bg-stone-200 overflow-hidden shadow-lg"><img src={`https://i.pravatar.cc/100?u=${i}`} alt="" /></div>)}
-                            <div className="w-12 h-12 rounded-full border-4 border-white dark:border-stone-800 bg-orange-900 flex items-center justify-center text-white text-xs font-black shadow-lg">+99</div>
-                        </div>
-                        <p className="text-stone-900 dark:text-stone-100 text-base font-black">500+ Custom Projects Delivered</p>
-                        <div className="mt-3 flex items-center text-orange-600 dark:text-orange-400 space-x-1.5">
-                            {[1, 2, 3, 4, 5].map(i => <Star key={i} size={14} fill="currentColor" />)}
-                        </div>
-                    </div>
-                </div>
-            </section>
+            {/* Hero Section Replaced with Video Background */}
+            <HeroVideo />
 
             {/* Bento Grid Featured Categories */}
             <section className="py-32 px-4 bg-[#FDFCFB] dark:bg-stone-950">
