@@ -35,7 +35,7 @@ export const Navbar = () => {
     const navLinks = [
         { name: 'Home', path: '/' },
         { name: 'Categories', path: '/categories' },
-        { name: 'Custom Order', path: '/custom-order' },
+        { name: 'Showrooms', path: '/showrooms' },
         { name: 'About', path: '/about' },
         { name: 'Contact', path: '/contact' },
     ];

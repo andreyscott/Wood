@@ -92,19 +92,20 @@ export const HeroVideo = () => {
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-5">
-                        <a
-                            href={WHATSAPP_LINK}
+                        <Link
+                            // href={WHATSAPP_LINK}
+                            href="/categories"
                             className="group relative bg-orange-900/90 hover:bg-orange-800 backdrop-blur-md text-white px-10 py-5 rounded-2xl font-black text-center transition-all duration-300 flex items-center justify-center space-x-2 overflow-hidden shadow-2xl shadow-orange-950/30 border border-orange-700/50"
                         >
                             <div className="absolute inset-0 bg-white/10 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700 ease-in-out"></div>
                             <MessageCircle size={24} />
-                            <span>Get Free Consultation</span>
-                        </a>
+                            <span>View Our Furniture</span>
+                        </Link>
                         <Link
                             href="/categories"
                             className="bg-white/10 hover:bg-white/20 backdrop-blur-md text-white border-2 border-white/30 px-10 py-5 rounded-2xl font-black text-center transition-all duration-300 flex items-center justify-center space-x-2 hover:shadow-lg hover:shadow-white/10"
                         >
-                            <span>Explore Showroom</span>
+                            <span>Visit Showroom</span>
                             <ArrowRight size={20} />
                         </Link>
                     </div>
@@ -112,7 +113,7 @@ export const HeroVideo = () => {
             </div>
 
             {/* Floating Decorative Elements - Hidden on mobile, visible on desktop */}
-            <div className="absolute bottom-20 right-[10%] hidden lg:block animate-float z-30">
+            {/* <div className="absolute bottom-20 right-[10%] hidden lg:block animate-float z-30">
                 <div className="glass bg-white/10 backdrop-blur-xl p-8 rounded-[2.5rem] w-72 shadow-2xl relative border border-white/20">
                     <div className="flex -space-x-4 mb-5">
                         {[1, 2, 3, 4].map(i => <div key={i} className="w-12 h-12 rounded-full border-4 border-white/10 bg-stone-200 overflow-hidden shadow-lg"><img src={`https://i.pravatar.cc/100?u=${i}`} alt="" /></div>)}
@@ -123,7 +124,7 @@ export const HeroVideo = () => {
                         {[1, 2, 3, 4, 5].map(i => <Star key={i} size={14} fill="currentColor" />)}
                     </div>
                 </div>
-            </div>
+            </div> */}
         </section>
     );
 };

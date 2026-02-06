@@ -39,7 +39,7 @@ export default function Home() {
         },
         {
             name: Category.Dining,
-            image: 'https://images.unsplash.com/photo-1617806118233-18e167400e61?auto=format&fit=crop&q=80&w=800',
+            image: 'https://plus.unsplash.com/premium_photo-1669648746595-f0eb67908d73?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cm95YWwlMjBkaW5pbmclMjB0YWJsZXxlbnwwfHwwfHx8MA%3D%3D',
             desc: 'Shared Moments',
             gridClass: 'md:col-span-1 md:row-span-1'
         },
@@ -125,7 +125,7 @@ export default function Home() {
             <section className="py-32 px-4 bg-stone-50 dark:bg-stone-900/30">
                 <div className="max-w-7xl mx-auto">
                     <div className="text-center mb-20">
-                        <h2 className="text-5xl font-black mb-6 font-serif text-stone-950 dark:text-stone-100 tracking-tighter">The Artisan Edge</h2>
+                        <h2 className="text-5xl font-black mb-6 font-serif text-stone-950 dark:text-stone-100 tracking-tighter">The Sam Standard Experience </h2>
                         <p className="text-stone-500 dark:text-stone-400 text-lg font-light">Quality without compromise, for every single joint and finish.</p>
                     </div>
 
@@ -135,7 +135,8 @@ export default function Home() {
                                 <Star size={32} />
                             </div>
                             <h3 className="text-3xl font-black mb-5 text-stone-950 dark:text-white font-serif">Heirloom Quality</h3>
-                            <p className="text-stone-600 dark:text-stone-400 leading-relaxed text-lg font-light">We use premium solid woods like Sheesham and Walnut, treated for longevity and finished with eco-friendly stains that highlight natural grain patterns.</p>
+                            <p className="text-stone-600 dark:text-stone-400 leading-relaxed text-lg font-light">
+                                We are committed to delivering the highest quality products, with every joint and finish crafted with care and precision.</p>
                         </div>
 
                         <div className="md:col-span-2 bg-white dark:bg-stone-900 p-12 rounded-[3rem] shadow-sm border border-stone-100 dark:border-stone-800 hover:shadow-2xl transition-all group bento-item">
@@ -143,7 +144,8 @@ export default function Home() {
                                 <PenTool size={32} />
                             </div>
                             <h3 className="text-3xl font-black mb-5 text-stone-950 dark:text-white font-serif">Bespoke Design</h3>
-                            <p className="text-stone-600 dark:text-stone-400 leading-relaxed text-lg font-light">Your home is unique. That's why we offer end-to-end customization, from dimensions to handle styles, ensuring every piece fits your space perfectly.</p>
+                            <p className="text-stone-600 dark:text-stone-400 leading-relaxed text-lg font-light">
+                                Your home is unique. so explore our unique collection of one of a kind furniture.  </p>
                         </div>
 
                         <div className="md:col-span-1 bg-orange-950 text-white p-10 rounded-[3rem] shadow-2xl bento-item flex flex-col justify-between group">
@@ -157,8 +159,8 @@ export default function Home() {
                         <div className="md:col-span-1 bg-white dark:bg-stone-900 p-10 rounded-[3rem] shadow-sm border border-stone-100 dark:border-stone-800 bento-item flex flex-col justify-between">
                             <ShieldCheck size={40} className="text-green-600" />
                             <div>
-                                <h4 className="font-black text-stone-950 dark:text-white text-xl mb-3 uppercase tracking-widest">Lifetime Guarantee</h4>
-                                <p className="text-stone-500 dark:text-stone-400 text-sm font-light">On all structural wood joints.</p>
+                                <h4 className="font-black text-stone-950 dark:text-white text-xl mb-3 uppercase tracking-widest">Quality Craftsmanship</h4>
+                                <p className="text-stone-500 dark:text-stone-400 text-sm font-light">Every piece is crafted with care and precision .</p>
                             </div>
                         </div>
 
@@ -180,8 +182,8 @@ export default function Home() {
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-[800px] bg-orange-900/5 rounded-full blur-[120px] pointer-events-none"></div>
                 <div className="max-w-7xl mx-auto relative z-10">
                     <div className="text-center mb-20">
-                        <h2 className="text-5xl md:text-6xl font-black text-stone-950 dark:text-stone-100 mb-6 font-serif tracking-tighter">Kind Words</h2>
-                        <div className="w-24 h-1.5 bg-orange-900 mx-auto rounded-full"></div>
+                        <h2 className="text-5xl md:text-6xl font-black text-stone-950 dark:text-stone-100 mb-6 font-serif tracking-tighter">Testimonial</h2>
+                        <div className="w-96 h-1 bg-orange-900 mx-auto rounded-full"></div>
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
