@@ -9,7 +9,7 @@ export default function About() {
                 <div>
                     <h1 className="text-4xl md:text-5xl font-bold text-stone-900 mb-6">Built with Passion, Crafted for Life.</h1>
                     <p className="text-lg text-stone-600 mb-6 leading-relaxed">
-                        Based in Latifabad, Hyderabad-Sindh, Artisan Woodworks started as a vision to merge classic woodworking artistry with modern living needs.
+                        Based in Latifabad, Hyderabad-Sindh, Sam Standard Furniture started as a vision to merge classic woodworking artistry with modern living needs.
                     </p>
                     <p className="text-lg text-stone-600 mb-8 leading-relaxed">
                         Under the guidance of {FOCAL_PERSON}, we have built a team of dedicated craftsmen who combine heritage techniques with contemporary design aesthetics. Every piece that leaves our workshop is inspected for structural integrity and aesthetic perfection.

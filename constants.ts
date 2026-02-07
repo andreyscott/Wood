@@ -1,9 +1,9 @@
 
 import { Category, Product } from './types';
 
-export const BUSINESS_NAME = "Artisan Woodworks";
-export const FOCAL_PERSON = "Mr. Ghayoor Ahmed";
-export const WHATSAPP_NUMBER = "+923182392794";
+export const BUSINESS_NAME = "Sam Standard Furniture";
+export const FOCAL_PERSON = "Mr. Sam ";
+export const WHATSAPP_NUMBER = "+234";
 export const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER.replace('+', '')}`;
 
 export const PRODUCTS: Product[] = [

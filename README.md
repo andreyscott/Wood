@@ -1,7 +1,7 @@
 
-# Artisan Woodworks Pakistan 🪑
+# Sam Standard Furniture 🪑
 
-**Artisan Woodworks** is a premium digital showroom and custom furniture inquiry platform tailored for the Pakistani market. It blends traditional craftsmanship from the heart of Gujrat with a modern, high-performance web experience.
+**Sam Standard Furniture** is a premium digital showroom and custom furniture inquiry platform tailored for the Pakistani market. It blends traditional craftsmanship from the heart of Gujrat with a modern, high-performance web experience.
 
 [![Vercel Deployment](https://img.shields.io/badge/Vercel-Deployed-black?style=flat-square&logo=vercel)](https://vercel.com)
 [![React Version](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react)](https://react.dev)
@@ -72,7 +72,7 @@ To deploy this project from your GitHub repository to Vercel, follow these steps
 
 ## 📜 License
 
-This project is proprietary for **Artisan Woodworks**. All furniture designs and brand assets are protected.
+This project is proprietary for **Sam Standard Furniture**. All furniture designs and brand assets are protected.
 
 ---
 *Built with ❤️ for the artisans of Pakistan.*

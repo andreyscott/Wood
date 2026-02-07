@@ -41,8 +41,8 @@ export default function ProductDetail() {
 
     const handleShare = async () => {
         const shareData = {
-            title: `${product.name} | Artisan Woodworks`,
-            text: `Check out this beautiful ${product.name} from Artisan Woodworks Pakistan!`,
+            title: `${product.name} | Sam Standard Furniture`,
+            text: `Check out this beautiful ${product.name} from Sam Standard Furniture Pakistan!`,
             url: window.location.href,
         };
 

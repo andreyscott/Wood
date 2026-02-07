@@ -25,6 +25,7 @@ export interface Product {
   videoUrl?: string;
 }
 
+
 export interface CustomInquiry {
   id: string;
   type: string;
@@ -34,4 +35,15 @@ export interface CustomInquiry {
   budgetRange: string;
   referenceImage?: string;
   timestamp: number;
+}
+
+export interface Showroom {
+  id: string;
+  name: string;
+  address: string;
+  city: string;
+  phone: string;
+  hours: string;
+  coords: [number, number]; // [latitude, longitude]
+  videoUrl?: string;
 }

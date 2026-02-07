@@ -232,10 +232,10 @@ export default function Home() {
                             </p>
                             <div className="flex flex-col sm:flex-row justify-center gap-8">
                                 <Link
-                                    href="/custom-order"
+                                    href="/showrooms"
                                     className="bg-white text-stone-950 px-12 py-6 rounded-[2rem] font-black uppercase tracking-widest text-sm transition-all shadow-xl hover:scale-105 active:scale-95"
                                 >
-                                    Start Custom Order
+                                    Vist Our Showrooms
                                 </Link>
                                 <a
                                     href={WHATSAPP_LINK}

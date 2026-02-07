@@ -6,18 +6,20 @@ import { BUSINESS_NAME, WHATSAPP_NUMBER, FOCAL_PERSON } from '../constants';
 
 export const Footer = () => (
     <footer className="bg-stone-950 text-stone-300 py-32 px-4 mt-24 relative overflow-hidden">
-        <div className="absolute top-0 left-0 w-full h-1.5 bg-gradient-to-r from-transparent via-orange-900 to-transparent opacity-50"></div>
+        <div className="absolute top-0 left-0 w-full h-1.5 bg-gradient-to-r from-transparent via-orange-900 to-transparent opacity-50">
+
+        </div>
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-20 relative z-10">
             <div className="col-span-1 md:col-span-2">
                 <div className="flex items-center space-x-6 mb-10">
                     <SamLogo size={96} />
-                    <div className="flex flex-col -space-y-3">
-                        <h2 className="text-white text-5xl font-black font-serif tracking-tighter">{BUSINESS_NAME}</h2>
+                    <div className="flex flex-col -space-y-3 ">
+                        <h2 className="text-white text-4xl font-black font-serif tracking-tighter pb-2">{BUSINESS_NAME}</h2>
                         <span className="text-sm uppercase tracking-[10px] text-orange-500 font-black">Superior Craft Since 2008</span>
                     </div>
                 </div>
                 <p className="max-w-md text-stone-400 leading-relaxed text-lg font-light">
-                    Handcrafting the finest furniture in Pakistan. Every joint, grain, and finish is a testament to our dedication to the artisan way.
+                    The home of the best quality and luxurious furniture in Nigeria. We are proud to offer our customers the finest furniture in the world.
                 </p>
                 <div className="flex space-x-6 mt-12">
                     <a href="#" className="w-14 h-14 rounded-full bg-stone-900 border border-stone-800 flex items-center justify-center hover:bg-orange-900 hover:border-orange-900 transition-all duration-300 shadow-2xl"><Phone size={24} /></a>
@@ -52,14 +54,14 @@ export const Footer = () => (
                         <span className="text-lg font-medium tracking-wide">{WHATSAPP_NUMBER}</span>
                     </li>
                     <li className="flex items-start space-x-5">
-                        <MapPin size={24} className="text-stone-500 mt-1 flex-shrink-0" />
-                        <span className="text-lg">Latifabad, Hyderabad-Sindh</span>
+                        <MapPin size={24} className="text-stone-500 mt-1 flex-shrink-0 hover:text-orange-500 transition-colors" />
+                        <span className="text-lg"> 51, Urubi Street, Benin City,Edo State</span>
                     </li>
                 </ul>
             </div>
         </div>
         <div className="max-w-7xl mx-auto mt-24 pt-12 border-t border-stone-900 text-center text-xs text-stone-500 tracking-[5px] uppercase font-black">
-            <p>&copy; {new Date().getFullYear()} {BUSINESS_NAME}. Handcrafted Excellence in Pakistan.</p>
+            <p>&copy; {new Date().getFullYear()} {BUSINESS_NAME}. Handcrafted Excellence in Nigeria.</p>
         </div>
     </footer>
 );
