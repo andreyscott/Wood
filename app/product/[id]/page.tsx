@@ -131,7 +131,12 @@ export default function ProductDetail() {
                                 {product.category}
                             </span>
                             <h1 className="text-3xl sm:text-5xl font-bold text-stone-900 mt-3 font-serif leading-tight">{product.name}</h1>
-                            <p className="text-2xl sm:text-3xl font-light text-stone-600 mt-4">Starting from <span className="text-stone-900 font-medium">PKR {product.priceStart.toLocaleString()}</span></p>
+                            {/* <p className="text-2xl sm:text-3xl font-light text-stone-600 mt-4">
+                                Starting from <span className="text-stone-900 font-medium">
+                                    PKR {product.priceStart.toLocaleString()}
+                                </span>
+                            </p> */}
+
                         </div>
                         <button
                             onClick={handleShare}

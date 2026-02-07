@@ -10,7 +10,7 @@ import { MessageCircle } from 'lucide-react';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-    title: 'Artisan Woodworks',
+    title: 'Sam Standard Furniture',
     description: 'Handcrafted Excellence in Pakistan',
 };
 
@@ -20,7 +20,7 @@ export default function RootLayout({
     children: React.ReactNode;
 }) {
     return (
-        <html lang="en">
+        <html lang="en" suppressHydrationWarning>
             <body className={`${inter.className} min-h-screen flex flex-col transition-colors duration-500`}>
                 <Navbar />
                 <main className="flex-grow pt-24">

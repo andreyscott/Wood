@@ -20,7 +20,7 @@ export const PRODUCTS: Product[] = [
       'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&q=80&w=800',
       'https://images.unsplash.com/photo-1550254478-ead40cc54513?auto=format&fit=crop&q=80&w=800'
     ],
-    videoUrl: 'https://player.vimeo.com/external/370331493.sd.mp4?s=2906d744f4d1e2195f9a657e3f6d7168c4a16972&profile_id=164&oauth2_token_id=57447761'
+    videoUrl: 'https://cdn.static.amplience.net/boconcept/_vid/a3bc902a-c3ac-4d31-a2c1-b39f00bcdfe9/5208e9ff-38cd-4382-82de-c0cbaad6b483/video/8dff8854-dadc-4990-8b57-498ced314ac5.mp4'
   },
   {
     id: '2',
@@ -32,9 +32,12 @@ export const PRODUCTS: Product[] = [
     dimensions: { l: 78, w: 72, h: 42, unit: 'inches' },
     deliveryWeeks: 3,
     images: [
-      'https://images.unsplash.com/photo-1505693419148-412808f3f01c?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&q=80&w=800'
-    ]
+      'https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1550254478-ead40cc54513?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&q=80&w=800',
+
+    ],
+    videoUrl: 'https://cdn.static.amplience.net/boconcept/_vid/a3bc902a-c3ac-4d31-a2c1-b39f00bcdfe9/5208e9ff-38cd-4382-82de-c0cbaad6b483/video/8dff8854-dadc-4990-8b57-498ced314ac5.mp4'
   },
   {
     id: '3',
@@ -47,7 +50,8 @@ export const PRODUCTS: Product[] = [
     deliveryWeeks: 2,
     images: [
       'https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?auto=format&fit=crop&q=80&w=800'
-    ]
+    ],
+    videoUrl: 'https://cdn.static.amplience.net/boconcept/_vid/a3bc902a-c3ac-4d31-a2c1-b39f00bcdfe9/5208e9ff-38cd-4382-82de-c0cbaad6b483/video/8dff8854-dadc-4990-8b57-498ced314ac5.mp4'
   },
   {
     id: '4',
@@ -59,8 +63,10 @@ export const PRODUCTS: Product[] = [
     dimensions: { l: 72, w: 36, h: 30, unit: 'inches' },
     deliveryWeeks: 5,
     images: [
-      'https://images.unsplash.com/photo-1530018607912-eff2df114f11?auto=format&fit=crop&q=80&w=800'
-    ]
+      'https://images.unsplash.com/photo-1604578762246-41134e37f9cc?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1505409628601-edc9af17fda6?auto=format&fit=crop&q=80&w=800'
+    ],
+    videoUrl: 'https://cdn.static.amplience.net/boconcept/_vid/a3bc902a-c3ac-4d31-a2c1-b39f00bcdfe9/5208e9ff-38cd-4382-82de-c0cbaad6b483/video/8dff8854-dadc-4990-8b57-498ced314ac5.mp4'
   },
   {
     id: '5',
@@ -73,6 +79,8 @@ export const PRODUCTS: Product[] = [
     deliveryWeeks: 1,
     images: [
       'https://images.unsplash.com/photo-1533090481720-856c6e3c1fdc?auto=format&fit=crop&q=80&w=800'
-    ]
+    ],
+    videoUrl: 'https://cdn.static.amplience.net/boconcept/_vid/a3bc902a-c3ac-4d31-a2c1-b39f00bcdfe9/5208e9ff-38cd-4382-82de-c0cbaad6b483/video/8dff8854-dadc-4990-8b57-498ced314ac5.mp4'
+
   }
 ];

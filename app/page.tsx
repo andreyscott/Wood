@@ -39,7 +39,7 @@ export default function Home() {
         },
         {
             name: Category.Dining,
-            image: 'https://plus.unsplash.com/premium_photo-1669648746595-f0eb67908d73?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cm95YWwlMjBkaW5pbmclMjB0YWJsZXxlbnwwfHwwfHx8MA%3D%3D',
+            image: 'https://plus.unsplash.com/premium_photo-1669648746595-f0eb67908d73?auto=format&fit=crop&q=80&w=800',
             desc: 'Shared Moments',
             gridClass: 'md:col-span-1 md:row-span-1'
         },
