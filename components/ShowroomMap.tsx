@@ -65,17 +65,17 @@ export const ShowroomMap = ({ showrooms, selectedId, onSelectShowroom }: Showroo
         <div className="h-full w-full">
             <MapContainer
                 center={center}
-                zoom={12}
+                zoom={13}
                 style={{ height: '100%', width: '100%' }}
                 className="z-0 rounded-2xl overflow-hidden"
             >
-                {/* Dark/Greyscale Map Tiles - Using CartoDB Dark Matter */}
+                {/* Dark/Greyscale Map Tiles - Using CartoDB Dark Matter (Free, No Auth) */}
                 {/* <TileLayer
                     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
                     url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
                 /> */}
 
-                {/* Alternative: Stadia Maps (uncomment if preferred) */}
+                {/* Stadia Maps (Requires Domain Whitelist in Dashboard) */}
                 <TileLayer
                     attribution='&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
                     url="https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png"
