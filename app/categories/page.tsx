@@ -78,7 +78,7 @@ function CategoriesContent() {
                             </div>
                         </div>
 
-                        <div className="bg-stone-900 dark:bg-stone-800 text-white p-8 rounded-3xl shadow-2xl relative overflow-hidden group">
+                        {/* <div className="bg-stone-900 dark:bg-stone-800 text-white p-8 rounded-3xl shadow-2xl relative overflow-hidden group">
                             <div className="absolute top-0 right-0 p-4 opacity-10 group-hover:rotate-12 transition-transform duration-500">
                                 <Hammer size={80} />
                             </div>
@@ -87,7 +87,7 @@ function CategoriesContent() {
                             <Link href="/custom-order" className="bg-orange-800 hover:bg-orange-700 text-white text-xs px-6 py-3 rounded-xl font-bold transition-all inline-flex items-center relative z-10 active:scale-95 shadow-lg">
                                 Start Custom Request <ArrowRight size={14} className="ml-2" />
                             </Link>
-                        </div>
+                        </div> */}
                     </div>
                 </aside>
 
