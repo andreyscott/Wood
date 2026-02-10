@@ -82,5 +82,20 @@ export const PRODUCTS: Product[] = [
     ],
     videoUrl: 'https://cdn.static.amplience.net/boconcept/_vid/a3bc902a-c3ac-4d31-a2c1-b39f00bcdfe9/5208e9ff-38cd-4382-82de-c0cbaad6b483/video/8dff8854-dadc-4990-8b57-498ced314ac5.mp4'
 
+  },
+  {
+    id: '6',
+    name: 'Modern Open Shelving Unit',
+    category: Category.Interiors,
+    description: 'A versatile floor-to-ceiling shelving unit with modular compartments for a complete interior solution.',
+    priceStart: 185000,
+    materials: ['Matte Black Steel', 'Walnut Veneer', 'LED Lighting'],
+    dimensions: { l: 96, w: 16, h: 108, unit: 'inches' },
+    deliveryWeeks: 6,
+    images: [
+      'https://images.unsplash.com/photo-1600210492493-0946911123ea?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&q=80&w=800'
+    ],
+    videoUrl: 'https://cdn.static.amplience.net/boconcept/_vid/a3bc902a-c3ac-4d31-a2c1-b39f00bcdfe9/5208e9ff-38cd-4382-82de-c0cbaad6b483/video/8dff8854-dadc-4990-8b57-498ced314ac5.mp4'
   }
 ];

@@ -4,7 +4,7 @@ export enum Category {
   Bedroom = 'Bedroom',
   Office = 'Office',
   Dining = 'Dining',
-  Custom = 'Custom Furniture'
+  Interiors = 'Interiors'
 }
 
 export interface Product {

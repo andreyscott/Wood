@@ -43,6 +43,12 @@ export default function Home() {
             desc: 'Shared Moments',
             gridClass: 'md:col-span-1 md:row-span-1'
         },
+        {
+            name: Category.Interiors,
+            image: 'https://images.unsplash.com/photo-1600210492493-0946911123ea?auto=format&fit=crop&q=80&w=800',
+            desc: 'Complete Spaces',
+            gridClass: 'md:col-span-1 md:row-span-1'
+        },
     ];
 
     const testimonials = [
