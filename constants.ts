@@ -1,5 +1,5 @@
 
-import { Category, Product } from './types';
+import { Category, Product, Showroom } from './types';
 
 export const BUSINESS_NAME = "Sam Standard Furniture";
 export const FOCAL_PERSON = "Mr. Sam ";
@@ -97,5 +97,36 @@ export const PRODUCTS: Product[] = [
       'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&q=80&w=800'
     ],
     videoUrl: 'https://cdn.static.amplience.net/boconcept/_vid/a3bc902a-c3ac-4d31-a2c1-b39f00bcdfe9/5208e9ff-38cd-4382-82de-c0cbaad6b483/video/8dff8854-dadc-4990-8b57-498ced314ac5.mp4'
+  }
+];
+// Showroom Data
+export const SHOWROOMS: Showroom[] = [
+  {
+    id: '1',
+    name: 'Main Showroom',
+    address: '51, Urubi Street,',
+    city: 'Benin City, Edo State',
+    phone: '+2347066800620',
+    hours: 'Mon-Sat: 10:00 AM - 8:00 PM\nSun: 11:00 AM - 6:00 PM',
+    coords: [6.35230249001851, 5.619779466197269],
+    videoUrl: 'https://cdn.media.amplience.net/v/boconcept/a3bc902a-c3ac-4d31-a2c1-b39f00bcdfe9/mp4_720p'
+  },
+  {
+    id: '2',
+    name: 'Showroom 2',
+    address: '27 Mission Rd, Avbiama',
+    city: 'Benin City, Edo State',
+    phone: '+2347066800620',
+    hours: 'Mon-Sat: 10:00 AM - 9:00 PM\nSun: 12:00 PM - 7:00 PM',
+    coords: [6.3402827683222265, 5.625312910375418]
+  },
+  {
+    id: '3',
+    name: 'Showroom 3',
+    address: 'Suite 101, KU Plaza,, opposite PZ Road, Junction 300104,',
+    city: 'Benin City, Edo State',
+    phone: '+2347066800620',
+    hours: 'Mon-Sat: 10:00 AM - 8:00 PM\nSun: Closed',
+    coords: [6.280063347279255, 5.633113023868183]
   }
 ];

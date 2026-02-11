@@ -41,7 +41,7 @@ export default function Contact() {
                         <div className="bg-orange-100 text-orange-800 p-4 rounded-xl"><MapPin size={28} /></div>
                         <div>
                             <h3 className="text-xl font-bold text-stone-900 mb-2">Our Workshop</h3>
-                            <p className="text-stone-600">Latifabad,<br />Hyderabad-Sindh, Pakistan</p>
+                            <p className="text-stone-600">Benin City,<br />Edo state, Nigeria</p>
                         </div>
                     </div>
 
@@ -62,13 +62,13 @@ export default function Contact() {
                     <div className="absolute inset-0 flex flex-col items-center justify-center bg-stone-100">
                         <MapPin size={48} className="text-orange-800 mb-4 animate-bounce" />
                         <p className="text-stone-500 font-bold">Interactive Map Loading...</p>
-                        <p className="text-stone-400 text-sm">Latifabad, Hyderabad</p>
+                        <p className="text-stone-400 text-sm">Benin City, Edo State, Nigeria</p>
                         <div className="mt-8 grid grid-cols-4 gap-2 opacity-20">
                             {[...Array(16)].map((_, i) => <div key={i} className="w-12 h-12 bg-stone-300 rounded"></div>)}
                         </div>
                     </div>
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115291.804!2d68.318239!3d25.3947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x394c70f6d4447345%3A0x41013d82e39211ad!2sHyderabad%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1620000000000!5m2!1sen!2s"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3588.4115416740638!2d5.617215274479575!3d6.352105225132431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1040d3141fcf7bf1%3A0x7e1ff419cdfbaf25!2sSam%20Standard%20Furniture!5e1!3m2!1sen!2sng!4v1770809112958!5m2!1sen!2sng"
                         width="100%"
                         height="100%"
                         style={{ border: 0 }}

@@ -9,10 +9,10 @@ export default function About() {
                 <div>
                     <h1 className="text-4xl md:text-5xl font-bold text-stone-900 mb-6">Built with Passion, Crafted for Life.</h1>
                     <p className="text-lg text-stone-600 mb-6 leading-relaxed">
-                        Based in Latifabad, Hyderabad-Sindh, Sam Standard Furniture started as a vision to merge classic woodworking artistry with modern living needs.
+                        Based in Benin City Nigeria, Sam Standard Furniture started as a vision to merge classic elegant furniture with modern living needs.
                     </p>
                     <p className="text-lg text-stone-600 mb-8 leading-relaxed">
-                        Under the guidance of {FOCAL_PERSON}, we have built a team of dedicated craftsmen who combine heritage techniques with contemporary design aesthetics. Every piece that leaves our workshop is inspected for structural integrity and aesthetic perfection.
+                        Under the guidance of {FOCAL_PERSON}, we have built a reputation for quality and excellence in the furniture industry. Every piece that leaves our showrooms is inspected for structural integrity and aesthetic perfection.
                     </p>
 
                     <div className="grid grid-cols-2 gap-8 py-8 border-t border-stone-100">
@@ -29,7 +29,7 @@ export default function About() {
                 <div className="relative">
                     <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl">
                         <img
-                            src="https://images.unsplash.com/photo-1541625602330-2277a4c4b28d?auto=format&fit=crop&q=80&w=1000"
+                            src="https://tse1.mm.bing.net/th/id/OIP.UfqSM_fkKdOSAz0PQJP3-wHaNK?rs=1&pid=ImgDetMain&o=7&rm=3"
                             alt="Workshop"
                             className="w-full h-full object-cover"
                         />
@@ -59,14 +59,14 @@ export default function About() {
                         <Users size={32} />
                     </div>
                     <h3 className="text-xl font-bold mb-4">Our Team</h3>
-                    <p className="text-stone-600">Our woodworkers aren't just employees; they are artists who treat every plank of wood with respect.</p>
+                    <p className="text-stone-600">We are a team of dedicated and hardworking individuals with modern design aesthetics.</p>
                 </div>
                 <div className="text-center">
                     <div className="w-16 h-16 bg-stone-100 text-stone-800 rounded-full flex items-center justify-center mx-auto mb-6">
                         <MapPin size={32} />
                     </div>
                     <h3 className="text-xl font-bold mb-4">Our Origin</h3>
-                    <p className="text-stone-600">Rooted in Latifabad, Hyderabad, we bring the finest craftsmanship of Sindh to the forefront of Pakistani furniture.</p>
+                    <p className="text-stone-600">Rooted in Benin City, Nigeria, we bring the finest craftsmanship from all over the world to your doorstep.</p>
                 </div>
             </div>
         </div>

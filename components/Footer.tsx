@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import { Phone, MessageCircle, User, MapPin } from 'lucide-react';
 import { SamLogo } from './SamStandardLogo';
-import { BUSINESS_NAME, WHATSAPP_NUMBER, FOCAL_PERSON } from '../constants';
+import { BUSINESS_NAME, WHATSAPP_NUMBER, FOCAL_PERSON, SHOWROOMS } from '../constants';
 
 export const Footer = () => (
     <footer className="bg-stone-950 text-stone-300 py-32 px-4 mt-24 relative overflow-hidden">
@@ -49,14 +49,19 @@ export const Footer = () => (
                             <p className="text-xs uppercase tracking-widest opacity-60">Managing Director</p>
                         </div>
                     </li>
-                    <li className="flex items-start space-x-5">
+                    {/* <li className="flex items-start space-x-5">
                         <Phone size={24} className="text-stone-500 mt-1 flex-shrink-0" />
                         <span className="text-lg font-medium tracking-wide">{WHATSAPP_NUMBER}</span>
-                    </li>
-                    <li className="flex items-start space-x-5">
-                        <MapPin size={24} className="text-stone-500 mt-1 flex-shrink-0 hover:text-orange-500 transition-colors" />
-                        <span className="text-lg"> 51, Urubi Street, Benin City,Edo State</span>
-                    </li>
+                    </li> */}
+                    {SHOWROOMS.map((showroom) => (
+                        <li key={showroom.id} className="flex items-start space-x-5">
+                            <MapPin size={24} className="text-stone-500 mt-1 flex-shrink-0 hover:text-orange-500 transition-colors" />
+                            <div className="flex flex-col">
+                                <span className="text-base font-semibold text-stone-300">{showroom.name}</span>
+                                <span className="text-xs text-stone-400">{showroom.address} {showroom.city}</span>
+                            </div>
+                        </li>
+                    ))}
                 </ul>
             </div>
         </div>
