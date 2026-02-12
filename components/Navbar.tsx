@@ -104,7 +104,7 @@ export const Navbar = () => {
             </div>
 
             {/* Mobile Nav */}
-            <div className={`lg:hidden overflow-hidden transition-all duration-500 ease-in-out ${isOpen ? 'max-h-96 opacity-100 translate-y-0' : 'max-h-0 opacity-0 -translate-y-4'
+            <div className={`lg:hidden transition-all duration-500 ease-in-out ${isOpen ? 'max-h-[85vh] opacity-100 translate-y-0 overflow-y-auto' : 'max-h-0 opacity-0 -translate-y-4 overflow-hidden'
                 } bg-white dark:bg-stone-950 border-t border-stone-100 dark:border-stone-900 shadow-2xl`}>
                 <div className="px-8 py-8 space-y-3">
                     {navLinks.map((link) => (
