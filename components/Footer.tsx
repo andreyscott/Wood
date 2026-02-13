@@ -58,7 +58,14 @@ export const Footer = () => (
                             <MapPin size={24} className="text-stone-500 mt-1 flex-shrink-0 hover:text-orange-500 transition-colors" />
                             <div className="flex flex-col">
                                 <span className="text-base font-semibold text-stone-300">{showroom.name}</span>
-                                <span className="text-xs text-stone-400">{showroom.address} {showroom.city}</span>
+                                <a
+                                    href={`https://www.google.com/maps/search/?api=1&query=${showroom.coords[0]},${showroom.coords[1]}`}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-xs text-stone-400 hover:text-orange-500 transition-colors"
+                                >
+                                    {showroom.address} {showroom.city}
+                                </a>
                             </div>
                         </li>
                     ))}
