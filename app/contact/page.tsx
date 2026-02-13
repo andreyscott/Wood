@@ -23,7 +23,7 @@ export default function Contact() {
                         </div>
                     </div>
 
-                    <div className="bg-white p-8 rounded-2xl border border-stone-100 shadow-sm flex items-start space-x-6">
+                    {/* <div className="bg-white p-8 rounded-2xl border border-stone-100 shadow-sm flex items-start space-x-6">
                         <div className="bg-orange-100 text-orange-800 p-4 rounded-xl"><Phone size={28} /></div>
                         <div>
                             <h3 className="text-xl font-bold text-stone-900 mb-2">Phone & WhatsApp</h3>
@@ -35,7 +35,7 @@ export default function Contact() {
                                 </a>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
                     <div className="bg-white p-8 rounded-2xl border border-stone-100 shadow-sm flex items-start space-x-6">
                         <div className="bg-orange-100 text-orange-800 p-4 rounded-xl"><MapPin size={28} /></div>
@@ -50,8 +50,7 @@ export default function Contact() {
                         <div>
                             <h3 className="text-xl font-bold text-stone-900 mb-2">Business Hours</h3>
                             <ul className="text-stone-600 space-y-1">
-                                <li className="flex justify-between w-64"><span>Sat - Thu:</span> <span className="font-medium">10:00 AM - 6:00 PM</span></li>
-                                <li className="flex justify-between w-64"><span>Friday:</span> <span className="font-medium">Closed</span></li>
+                                <li className="flex justify-between w-64"><span>Mon - Sat:</span> <span className="font-medium">8:00 AM - 6:00 PM</span></li>
                             </ul>
                         </div>
                     </div>

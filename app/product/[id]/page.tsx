@@ -195,17 +195,12 @@ export default function ProductDetail() {
                             <MessageCircle size={24} />
                             <span>Inquire on WhatsApp</span>
                         </a>
-                        <Link
-                            href="/custom-order"
-                            className="px-8 py-4 border-2 border-stone-200 rounded-xl font-bold text-stone-700 hover:bg-stone-50 hover:border-stone-300 transition-all text-center"
-                        >
-                            Customize This
-                        </Link>
+
                     </div>
 
                     <div className="bg-stone-50 p-4 rounded-xl border border-stone-100">
                         <p className="text-xs text-stone-500 leading-relaxed italic">
-                            * Final prices are subject to material selection and specific finishing requests. We offer free consultation in Hyderabad.
+                            * Final prices are subject to product selection and specific finishing or add-ons requests. We offer free consultation.
                         </p>
                     </div>
                 </div>

@@ -97,6 +97,71 @@ export const PRODUCTS: Product[] = [
       'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&q=80&w=800'
     ],
     videoUrl: 'https://cdn.static.amplience.net/boconcept/_vid/a3bc902a-c3ac-4d31-a2c1-b39f00bcdfe9/5208e9ff-38cd-4382-82de-c0cbaad6b483/video/8dff8854-dadc-4990-8b57-498ced314ac5.mp4'
+  },
+  {
+    id: '7',
+    name: 'Mosaic Center Table',
+    category: Category.CenterTable,
+    description: 'A stunning handcrafted center table featuring intricate mosaic patterns and solid wood base.',
+    priceStart: 65000,
+    materials: ['Teak Wood', 'Ceramic Mosaic', 'Glass Top'],
+    dimensions: { l: 42, w: 42, h: 18, unit: 'inches' },
+    deliveryWeeks: 3,
+    images: [
+      'https://images.unsplash.com/photo-1633633816654-e05391d4d872?auto=format&fit=crop&q=80&w=800'
+    ]
+  },
+  {
+    id: '8',
+    name: 'Teak Outdoor Lounge Set',
+    category: Category.Outdoor,
+    description: 'Weather-resistant teak luxury lounge set with water-repellent cushions for your patio.',
+    priceStart: 220000,
+    materials: ['Teak Wood', 'Outdoor Fabric', 'Quick-dry Foam'],
+    dimensions: { l: 120, w: 80, h: 32, unit: 'inches' },
+    deliveryWeeks: 4,
+    images: [
+      'https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?auto=format&fit=crop&q=80&w=800'
+    ]
+  },
+  {
+    id: '9',
+    name: 'Minimalist Media Console',
+    category: Category.TvStand,
+    description: 'Low-profile walnut TV stand with slatted doors and ample cable management.',
+    priceStart: 95000,
+    materials: ['Walnut Veneer', 'Solid Wood Legs'],
+    dimensions: { l: 72, w: 18, h: 22, unit: 'inches' },
+    deliveryWeeks: 3,
+    images: [
+      'https://images.unsplash.com/photo-1593796320101-56877ee92364?auto=format&fit=crop&q=80&w=800'
+    ]
+  },
+  {
+    id: '10',
+    name: 'Chesterfield Velvet Sofa',
+    category: Category.Sofas,
+    description: 'Classic Chesterfield design reimagined with modern velvet upholstery and deep tufting.',
+    priceStart: 180000,
+    materials: ['Premium Velvet', 'Hardwood Frame', 'Brass Casters'],
+    dimensions: { l: 90, w: 38, h: 30, unit: 'inches' },
+    deliveryWeeks: 5,
+    images: [
+      'https://images.unsplash.com/photo-1550254478-ead40cc54513?auto=format&fit=crop&q=80&w=800'
+    ]
+  },
+  {
+    id: '11',
+    name: 'Abstract Wooden Sculpture',
+    category: Category.TableDecor,
+    description: 'Hand-carved abstract wooden sculpture to add an artistic touch to your tabletops.',
+    priceStart: 15000,
+    materials: ['Suar Wood', 'Natural Oil Finish'],
+    dimensions: { l: 12, w: 8, h: 16, unit: 'inches' },
+    deliveryWeeks: 1,
+    images: [
+      'https://images.unsplash.com/photo-1578500494198-246f612d3b3d?auto=format&fit=crop&q=80&w=800'
+    ]
   }
 ];
 // Showroom Data

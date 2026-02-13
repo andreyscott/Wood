@@ -4,7 +4,12 @@ export enum Category {
   Bedroom = 'Bedroom',
   Office = 'Office',
   Dining = 'Dining',
-  Interiors = 'Interiors'
+  Interiors = 'Interiors',
+  CenterTable = 'Center Table',
+  Outdoor = 'Outdoor Furniture',
+  TvStand = 'TV Stand',
+  Sofas = 'Sofas',
+  TableDecor = 'Table Decor'
 }
 
 export interface Product {

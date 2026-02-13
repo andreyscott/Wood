@@ -88,7 +88,7 @@ export const Navbar = () => {
                     </div>
 
                     <div className="lg:hidden flex items-center space-x-4">
-                        <button onClick={toggleTheme} className="p-2 rounded-lg text-stone-500 dark:text-stone-400">
+                        <button onClick={toggleTheme} className="p-2 rounded-lg text-stone-500 dark:text-stone-400 hidden">
                             {theme === 'dark' ? <Sun size={28} /> : <Moon size={28} />}
                         </button>
                         <button

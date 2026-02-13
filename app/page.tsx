@@ -49,6 +49,36 @@ export default function Home() {
             desc: 'Complete Spaces',
             gridClass: 'md:col-span-1 md:row-span-1'
         },
+        {
+            name: Category.CenterTable,
+            image: 'https://images.unsplash.com/photo-1633633816654-e05391d4d872?auto=format&fit=crop&q=80&w=800',
+            desc: 'Centerpieces',
+            gridClass: 'md:col-span-1 md:row-span-1'
+        },
+        {
+            name: Category.Outdoor,
+            image: 'https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?auto=format&fit=crop&q=80&w=800',
+            desc: 'Al Fresco Living',
+            gridClass: 'md:col-span-1 md:row-span-1'
+        },
+        {
+            name: Category.TvStand,
+            image: 'https://images.unsplash.com/photo-1593796320101-56877ee92364?auto=format&fit=crop&q=80&w=800',
+            desc: 'Media Consoles',
+            gridClass: 'md:col-span-1 md:row-span-1'
+        },
+        {
+            name: Category.Sofas,
+            image: 'https://images.unsplash.com/photo-1550254478-ead40cc54513?auto=format&fit=crop&q=80&w=800',
+            desc: 'Lounge in Luxury',
+            gridClass: 'md:col-span-2 md:row-span-1'
+        },
+        {
+            name: Category.TableDecor,
+            image: 'https://images.unsplash.com/photo-1578500494198-246f612d3b3d?auto=format&fit=crop&q=80&w=800',
+            desc: 'Finishing Touches',
+            gridClass: 'md:col-span-1 md:row-span-1'
+        },
     ];
 
     const testimonials = [
