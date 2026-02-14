@@ -83,20 +83,20 @@ export default function Home() {
 
     const testimonials = [
         {
-            name: "Ahmed Raza",
-            location: "Karachi",
+            name: "Ben Carter",
+            location: "Benin City",
             quote: "The Sheesham sofa set exceeded my expectations. Intricate carving and flawless finish.",
             rating: 5
         },
         {
-            name: "Sobia Khan",
-            location: "Lahore",
-            quote: "Found a design on Pinterest and they made it exactly like the photo. Smooth process!",
+            name: "Sophia Ali",
+            location: "Benin City",
+            quote: "Found exactly what I was looking for. Smooth process!",
             rating: 5
         },
         {
             name: "Dr. Faisal",
-            location: "Hyderabad",
+            location: "Benin City",
             quote: "Ordered a walnut desk for my clinic. Sturdy, elegant, and professional delivery.",
             rating: 5
         }
